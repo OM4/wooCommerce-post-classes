@@ -15,7 +15,7 @@ This plugin adds the additional following information to the DOM classes for eac
 
 * Shipping Class Name and ID (shipping-class-* and shipping-class-id-*)
 
-If you have any other suggestions for other information that could be included, please [add your suggestion via GitHub](https://github.com/OM4/woocommerce-post-classesissues).
+If you have any other suggestions for other information that could be included, please [add your suggestion via GitHub](https://github.com/OM4/woocommerce-post-classes/issues).
 
 == Installation ==
 
