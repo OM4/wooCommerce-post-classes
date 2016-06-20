@@ -3,9 +3,9 @@
 Plugin Name: WooCommerce Post Classes
 Plugin URI: https://github.com/OM4/woocommerce-post-classes
 Description: Adds additional information (such as shipping class) to the WooCommerce product display.
-Version: 0.1
+Version: 0.2
 Author: OM4
-Author URI: http://om4.com.au/
+Author URI: https://om4.com.au/plugins/
 Text Domain: woocommerce-post-classes
 Git URI: https://github.com/OM4/woocommerce-post-classes
 Git Branch: release
@@ -13,7 +13,7 @@ License: GPLv2
 */
 
 /*
-Copyright 2014 OM4 (email: info@om4.com.au    web: http://om4.com.au/)
+Copyright 2014-2016 OM4 (email: plugins@om4.com.au    web: https://om4.com.au/plugins/)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -73,7 +73,7 @@ if ( ! class_exists( 'WC_Post_Classes' ) ) {
 			if ( ! $post_id || get_post_type( $post_id ) !== 'product' )
 				return $classes;
 
-			$product = get_product( $post_id );
+			$product = wc_get_product( $post_id );
 
 			if ( $product ) {
 
